@@ -1,0 +1,65 @@
+/* Add this CSS to your styles.css file */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label, textarea, input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    /* For screens smaller than 768px wide */
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    label, textarea, input {
+        padding: 8px;
+        font-size: 14px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+}
+
+/* You can add more media queries as needed for different screen sizes */
